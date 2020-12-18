@@ -7,12 +7,14 @@ This is a practice project for learning Ruby On Rails. If you are new to rails, 
 
 In this system, a user can create courses and enroll to other user courses.
 
+LIVE LINK: [https://simp-elearning.herokuapp.com](https://simp-elearning.herokuapp.com/)
+
 ## ✨ Features
 
 - Sign-up new accounts
 - Create courses
 - Enroll, unenroll to other user courses
-- Commenting feature ( upcoming )
+- Commenting feature
 - Create, edit , delete categories as an admin
 
 **Topics Covered**
@@ -50,30 +52,14 @@ Entity Relationship Diagram of the project models.
 First we need to setup Rails environment in our system. If you have already setup rails environment, please move to the next section.
 
 **Steps to setup Rails environment:**
+Details guide to setup rails environment: https://gorails.com/setup
 
-1. Install Ruby
-1. Install Ruby Package Manager ( [rbenv](https://github.com/rbenv/rbenv) (preferred) / rvm )
-2. Install Bundler 
-3. Setup PostgreSQL Database
-4. Setup Git 
-
-Details guide to setup rails environment can be found here: https://gorails.com/setup
-
-**Clone the Project**
-
-Clone the project using any of the available command. 
-
-```bash
-git clone https://github.com/Santho07/elearning-system.git
-```
-
-or if you have setup github ssh
-
-```bash
-git clone git@github.com:Santho07/elearning-system.git
-```
-
-After that, run the following commands from project root directory to get up and running.
+1. Install Ruby 
+2. Install a Ruby Package Manager
+3. Install Bundler 
+4. Setup PostgreSQL Database
+5. Setup Git
+6. Clone the project and run the following commands
 
 **Commands to run rails project locally**
 
@@ -120,23 +106,16 @@ password: `secret`
 - [Rails Style Guide](https://github.com/rubocop-hq/rails-style-guide)
 - [Awesome Rails](https://github.com/gramantin/awesome-rails#readme)
 - [Ruby on Rails Design Patterns](https://codeclimate.com/blog/7-ways-to-decompose-fat-activerecord-models/)
+
 ## 🍰 Contributors
 
 - [Imam Hossain](https://github.com/Santho07)
 - [Shuvra Debnath](https://github.com/shuvra-mbstu)
 
-## 🙇 Special Thanks
-
-- Farzana Haque Apu
-- Avik Chowdhury Vaia
-- Maliha Rahman Apu
-
-For the amazing support, guidance and PR reviews throughout the project.
-
 ## 💎 Contributing
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Feel free to add new feature or improve the codebase by opening pull requests. Please add `Rspec` tests for any new changes.
+Feel free to add new feature or improve the codebase by opening pull requests. 
 
 ## ©️ License
 
